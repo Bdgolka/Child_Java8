@@ -25,10 +25,10 @@ public class GenQueue<T> implements IGenQ<T> {
 	}
 
 	//Get element from the queue
-	public T get() throws QueueEmptyExceprtion {
+	public T get() throws QueueEmptyException {
 
 		if (getloc == putloc)
-			throw new QueueEmptyExceprtion();
+			throw new QueueEmptyException();
 			
 		return q[getloc++];
 	}

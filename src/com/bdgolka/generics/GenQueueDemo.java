@@ -30,7 +30,7 @@ public class GenQueueDemo {
 				iVal = q.get();
 				System.out.println(iVal);
 			}
-		} catch (QueueEmptyExceprtion e) {
+		} catch (QueueEmptyException e) {
 			System.out.println(e);
 		}
 
@@ -59,7 +59,7 @@ public class GenQueueDemo {
 				dVal = q2.get();
 				System.out.println(dVal);
 			}
-		} catch (QueueEmptyExceprtion e) {
+		} catch (QueueEmptyException e) {
 			System.out.println(e);
 		}
 
